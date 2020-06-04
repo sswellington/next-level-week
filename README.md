@@ -4,14 +4,21 @@
     <img src="/assets/icones/.README/capa.png">
 </p>
 
-## Estrutura de diretórios
-### assets
-* css :css:
-* icones
-* unsplash
-* js
-    * create-point
-    * home
+--- 
+
+## Configuração de ambiente
+~~~bash
+# https://github.com/asdf-vm/asdf-nodejs
+asdf plugin-update --all
+asdf plugin-add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
+asdf install nodejs 12.18.0 
+asdf local nodejs 12.18.0 
+asdf plugin-update --all
+~~~
+
+---
 
 # [Layout](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta) 
 ## Panorâma
@@ -45,6 +52,17 @@
 </p>
 
 ---
+
+## Estrutura de diretórios
+### assets
+* css :css:
+* icones
+* unsplash
+* js
+    * create-point
+    * home
+### src
+* views    
 
 <p align="center">
     <img src="/assets/icones/.README/1440x900.jpg">
