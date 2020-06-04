@@ -16,6 +16,10 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs 12.18.0 
 asdf local nodejs 12.18.0 
 asdf plugin-update --all
+
+# NodeJS
+npm init -y   # incializar node.js
+npm install express # instalar micro-framework 'express' (configura rota e interpreta parâmetros)
 ~~~
 
 ---
