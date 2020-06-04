@@ -4,7 +4,7 @@
     "description": "<p align=\"center\">     <img src=\"/assets/icones/.README/capa.png\"> </p>",
     "main": "src/server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "nodemon src/server.js"
     },
     "repository": {
         "type": "git",
@@ -19,5 +19,8 @@
     "homepage": "https://github.com/sswellington/next-level-week#readme",
     "dependencies": {
         "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
     }
 }
