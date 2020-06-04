@@ -1,4 +1,4 @@
-# Next Level Week: Ecoleta - Seu marketplace de coleta de resíduos
+# Next Level Week: Ecoleta
 
 <p align="center">
     <img src="/assets/icones/.README/capa.png">
@@ -13,8 +13,7 @@
     * create-point
     * home
 
-# [Layout](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta
-) 
+# [Layout](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta) 
 ## Panorâma
 <p align="center">
     <img src="/assets/icones/.README/panorama.png">
