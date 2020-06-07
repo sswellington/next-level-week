@@ -1,7 +1,7 @@
 # Next Level Week: Ecoleta
 
 <p align="center">
-    <img src="/assets/icones/.README/capa.png">
+    <img src="./public/assets/icones/.README/capa.png">
 </p>
 
 --- 
@@ -35,32 +35,32 @@ npm install sqlite3
 # [Layout](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta) 
 ## Panorâma
 <p align="center">
-    <img src="/assets/icones/.README/panorama.png">
+    <img src="./public/assets/icones/.README/panorama.png">
 </p>
 
 ## Home 
 <p align="center">
-    <img src="/assets/icones/.README/Home.png">
+    <img src="./public/assets/icones/.README/Home.png">
 </p>
 
 ## Cadastro 
 <p align="center">
-    <img src="/assets/icones/.README/Cadastro.png">
+    <img src="./public/assets/icones/.README/Cadastro.png">
 </p>
 
 ## Sucesso! 
 <p align="center">
-    <img src="/assets/icones/.README/Sucesso.png">
+    <img src="./public/assets/icones/.README/Sucesso.png">
 </p>
 
 ## Buscar
 <p align="center">
-    <img src="/assets/icones/.README/Buscar.png">
+    <img src="./public/assets/icones/.README/Buscar.png">
 </p>
 
 ## Lista
 <p align="center">
-    <img src="/assets/icones/.README/Lista.png">
+    <img src="./public/assets/icones/.README/Lista.png">
 </p>
 
 ---
@@ -78,5 +78,5 @@ npm install sqlite3
 * views    
 
 <p align="center">
-    <img src="/assets/icones/.README/1440x900.jpg">
+    <img src="./public/assets/icones/.README/1440x900.jpg">
 </p>
