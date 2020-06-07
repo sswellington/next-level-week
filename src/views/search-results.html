@@ -3,7 +3,7 @@
 
 <head>
     {% include "include/head.html" %}
-    <link rel="stylesheet" href="assets/css/search-results.css">
+    <link rel="stylesheet" href="assets/css/search-results-min.css">
 </head>
 
 <body>
@@ -12,26 +12,35 @@
         {% include "include/header.html" %}
 
         <main>
-            <h4> <strong>2 pontos</strong> encontrados </h4>
+            {% if total > 0%}
+            <h4> <strong>{{total}} pontos</strong> encontrados </h4>
+
+
             <div class="cards">
+
+                {% for place in places %}
+
                 <div class="card">
-                    <img src="./assets/unsplash/green.jpg" alt="Colectoria">
-                    <h1> Colectoria </h1>
-                    <h3><b> Resíduos Eletrônicos, Lâmpadas </b></h3>
+                    <img src="{{place.image}}" alt="{{place.name}}">
+                    <h1>{{place.name}}</h1>
+                    <h3>{{place.items}}</h3>
                     <p>
-                        Rio do Sul, Santa Catarina <br> Guilherme Gemballa, Jardim América <br> Nº 260.
+                        {{place.city}}, {{place.state}}
+                        <br/> {{place.address}}
+                        <br/> Número {{place.address2}}
                     </p>
                 </div>
 
-                <div class="card">
-                    <img src="./assets/unsplash/dog-and-paper.jpg" alt="Papersider">
-                    <h1> Papersider</h1>
-                    <h3><b> Papéis e Papelão</b></h3>
-                    <p>
-                        Rio do Sul, Santa Catarina <br> Guilherme Gemballa, Jardim América <br> Nº 260.
-                    </p>
-                </div>
+                {% endfor %}
+
             </div>
+
+            {% else %}
+
+            <h4><strong> Local encontrado: </strong> nenhum </h4>
+
+            {% endif %}
+
         </main>
     </div>
 </body>
