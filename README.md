@@ -25,6 +25,8 @@ npm install express # instalar micro-framework 'express' (configura rota e inter
 #   apenas na dependência de desenvolvimento, 
 #   ao remover -D instala para todo servidor
 npm install nodemon -D 
+
+npm install nunjucks # Template Engine
 ~~~
 
 ---
@@ -63,13 +65,14 @@ npm install nodemon -D
 ---
 
 ## Estrutura de diretórios
-### assets
-* css :css:
-* icones
-* unsplash
-* js
-    * create-point
-    * home
+# public
+* assets
+    * css
+    * icones
+    * unsplash
+    * js
+        * create-point
+        * home
 ### src
 * views    
 
