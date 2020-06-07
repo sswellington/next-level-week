@@ -4,14 +4,7 @@
     <img src="/assets/icones/.README/capa.png">
 </p>
 
-## Estrutura de diretórios
-### assets
-* css :css:
-* icones
-* unsplash
-* js
-    * create-point
-    * home
+---
 
 # [Layout](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta) 
 ## Panorâma
