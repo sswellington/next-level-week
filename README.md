@@ -27,6 +27,7 @@ npm install express # instalar micro-framework 'express' (configura rota e inter
 npm install nodemon -D 
 
 npm install nunjucks # Template Engine
+npm install sqlite3
 ~~~
 
 ---

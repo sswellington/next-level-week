@@ -2,12 +2,7 @@
 <html lang="pt_br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecoleta - Seu marketplace de coleta de resíduos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/favicon.ico" />
-    <link rel="stylesheet" href="./assets/css/main.css">
+    {% include "include/head.html" %}
     <link rel="stylesheet" href="./assets/css/home.css">
 </head>
 
@@ -34,24 +29,8 @@
         </div>
     </div>
 
-    <div id="modal" class="hide">
-        <div class="content">
-            <div class="header">
-                <h1> Pontos de Coleta</h1>
-                <a href="#">Fechar</a>
-            </div>
+    {% include "include/modal.html" %}
 
-            <form action="/search-results">
-                <label for="search">Cidade</label>
-                <div class="search field">
-                    <input type="text" name="search" placeholder="Pesquise por cidade">
-                    <button>
-                        <img src="./assets/icones/search.svg" alt="Buscar">
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
     <script src="assets/js/home/button-search.js"></script>
 </body>
 
